@@ -50,8 +50,8 @@ namespace RPS
             Random rng = new Random(); //instance tridy Random pro generovani nahodnych cisel
 
 
-
-            Console.ReadKey(); //Aby se nam to hnedka neukoncilo
+            Console.WriteLine("Zadej pocet kol: ");
+            // Console.ReadKey(); //Aby se nam to hnedka neukoncilo
         }
     }
 }
