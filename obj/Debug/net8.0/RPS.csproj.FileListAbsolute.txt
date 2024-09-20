@@ -1,0 +1,15 @@
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/bin/Debug/net8.0/RPS
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/bin/Debug/net8.0/RPS.deps.json
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/bin/Debug/net8.0/RPS.runtimeconfig.json
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/bin/Debug/net8.0/RPS.dll
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/bin/Debug/net8.0/RPS.pdb
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/RPS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/RPS.AssemblyInfoInputs.cache
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/RPS.AssemblyInfo.cs
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/RPS.csproj.CoreCompileInputs.cache
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/RPS.sourcelink.json
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/RPS.dll
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/refint/RPS.dll
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/RPS.pdb
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/RPS.genruntimeconfig.cache
+/Users/simonkresta/Documents/Simon C# PRG/RPS/RPS/obj/Debug/net8.0/ref/RPS.dll
