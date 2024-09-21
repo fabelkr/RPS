@@ -6,11 +6,12 @@ namespace RPS
     {
         static void Main(string[] args)
         {
-            GameSpecs gameSpecsInstance = new GameSpecs();
+            RPS_Game rpsGame = new RPS_Game();
+            RPSLS_Game rpslsGame = new RPSLS_Game();
+            GameSpecs gameSpecs = new GameSpecs();
 
-            gameSpecsInstance.setGameSpecs();
-
-            Random rng = new Random(); //instance tridy Random pro generovani nahodnych cisel
+            gameSpecs.setGameSpecs();
+            // RPS_Game.rpsGame(gameSpecs);
 
             // Console.ReadKey(); //Aby se nam to hnedka neukoncilo
         }

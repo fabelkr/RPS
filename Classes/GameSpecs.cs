@@ -35,6 +35,10 @@ public struct GameOptions
                 return length;
             case 2:
                 return version;
+            case 3:
+                return capType;
+            case 4:
+                return capCount;
             default:
                 return null;
         }
@@ -43,7 +47,7 @@ public struct GameOptions
 
 public class GameSpecs
 {
-    private GameOptions options;
+    public GameOptions options;
     //constructor
     public GameSpecs()
     {
@@ -94,6 +98,14 @@ public class GameSpecs
                 {
                     // TODO: loading fake animation
                     Console.Write("All specs are set \nStarting the game\n");
+                    if(options.version == 0)
+                    {
+                        RPS_Game.rpsGame(this);
+                    }
+                    else
+                    {
+                        RPSLS_Game.rpslsGame(this);
+                    }
                     break;
                 }
 
@@ -141,6 +153,7 @@ public class GameSpecs
                 {
                     Console.WriteLine("Set the number of rounds");
                     options.capCount = Convert.ToInt32(Console.ReadLine());
+                    options.capType = 0;
                     break;
                 }
                 break;
@@ -151,6 +164,7 @@ public class GameSpecs
                 {
                     Console.WriteLine("Set the score cap");
                     options.capCount = Convert.ToInt32(Console.ReadLine());
+                    options.capType = 1;
                     break;
                 }
                 break;
