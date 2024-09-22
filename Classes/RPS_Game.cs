@@ -60,7 +60,9 @@ public class RPS_Game
                     break;
             }
         }else{
-            while(capType == 0 ? currentRound < capCount : scoreComputer < capCount || scorePlayer < capCount){
+            while((capType == 0 && currentRound < capCount) || 
+                  (capType == 1 && scorePlayer < capCount && scoreComputer < capCount) || 
+                  (capType == null && true)){
                 Console.WriteLine($"\nChoose your weapon: \n1. {rps[0]} \n2. {rps[1]} \n3. {rps[2]} \n");
                 //input
                 computerChoice = rng.Next(1, 4);
